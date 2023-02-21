@@ -3,22 +3,22 @@
     "short_name": "Sell",
     "icons": [
       {
-        "src": "/images/IconSR/196.png",
+        "src": "/images/Assets.xcassets/AppIcon.appiconset/_/196.png",
         "type": "image/png",
         "sizes": "196x196"
       },
       {
-        "src": "/images/IconSR/216.png",
+        "src":"/images/Assets.xcassets/AppIcon.appiconset/_/216.png",
         "type": "image/png",
         "sizes": "216x216"
       },
       {
-        "src": "/images/IconSR/512.png",
+        "src": "/images/Assets.xcassets/AppIcon.appiconset/_/512.png",
         "type": "image/png",
         "sizes": "512x512"
       },
       {
-        "src": "/images/IconSR/1024.png",
+        "src": "/images/Assets.xcassets/AppIcon.appiconset/_/1024.png",
         "type": "image/png",
         "sizes": "1024x1024"
       }

@@ -1,0 +1,33 @@
+{
+    "name": "Sell and Regisyer",
+    "short_name": "Sell",
+    "icons": [
+      {
+        "src": "/images/IconSR/196.png",
+        "type": "image/png",
+        "sizes": "196x196"
+      },
+      {
+        "src": "/images/IconSR/216.png",
+        "type": "image/png",
+        "sizes": "216x216"
+      },
+      {
+        "src": "/images/IconSR/512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/images/IconSR/1024.png",
+        "type": "image/png",
+        "sizes": "1024x1024"
+      }
+    ],
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#fdfdfd",
+    "scope": "./",
+    "theme_color": "#db4938",
+    "orientation": "portrait-primary"
+  }
+  

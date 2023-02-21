@@ -12,13 +12,6 @@ const APP_SHELL = [
   
 ];
 
-// self.addEventListener("install", installEvent => {
-//   installEvent.waitUntil(
-//     caches.open(staticDevCoffee).then(cache => {
-//       cache.addAll(assets);
-//     })
-//   );
-// });
 
 self.addEventListener("install", (e) => {
   console.log("entrando");
@@ -29,13 +22,6 @@ self.addEventListener("install", (e) => {
   e.waitUntil(cacheStatic);
 });
 
-// self.addEventListener("fetch", fetchEvent => {
-//   fetchEvent.respondWith(
-//     caches.match(fetchEvent.request).then(res => {
-//       return res || fetch(fetchEvent.request);
-//     })
-//   );
-// });
 self.addEventListener("fetch", (e) =>{
   console.log("fetch", e.request);
 
